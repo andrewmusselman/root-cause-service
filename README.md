@@ -11,13 +11,13 @@ RCS, or Root Cause Service is a dedicated tool that identifies the root cause of
 ## Getting Started
 1. To get started, follow the following instructions:
     ```bash
-    git clone git@github.com:OpenRefactory-Inc/rcs-transition.git
-    cd rcs-transition
+    git clone git@github.com:vex-generation-toolset/root-cause-service.git
+    cd root-cause-service
     ```
 
 2. Create a Python virtual environment and install dependencies:
     ```bash
-    python3 -m virtualenv env
+    python3 -m venv env
     source env/bin/activate
     pip install -r requirements.txt
     ```
@@ -25,7 +25,7 @@ RCS, or Root Cause Service is a dedicated tool that identifies the root cause of
 3. Create a `.env` file containing the following info:
     ```bash
     GITHUB_TOKEN=<GitHub Personal Access Token(PAT)>
-    NVD_API_KEY=<NVD API Kee>
+    NVD_API_KEY=<NVD API Key>
     GOOGLE_API_KEY=<Google Gemini API Key>
     OPEN_ROUTER_API_KEY=<Open Router API Key>
     ```
